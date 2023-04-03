@@ -28,9 +28,9 @@ import attentive from "./company/attentive.png";
 import ncr from "./company/ncr.png";
 import grosvenor from "./company/grosvenor.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import smedio from "./smedio.png";
+import fitclub from "./fitclub.png";
+import elecomm from "./elecomm.png";
 
 export {
   logo,
@@ -60,7 +60,7 @@ export {
   attentive,
   ncr,
   grosvenor,
-  carrent,
-  jobit,
-  tripguide,
+  smedio,
+  fitclub,
+  elecomm,
 };
