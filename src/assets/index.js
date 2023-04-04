@@ -31,6 +31,8 @@ import grosvenor from "./company/grosvenor.png";
 import smedio from "./smedio.png";
 import fitclub from "./fitclub.png";
 import elecomm from "./elecomm.png";
+import tikdok from "./tikdok.png";
+import notes from "./notes.png";
 
 export {
   logo,
@@ -63,4 +65,6 @@ export {
   smedio,
   fitclub,
   elecomm,
+  tikdok,
+  notes,
 };

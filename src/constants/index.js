@@ -22,6 +22,8 @@ import {
   smedio,
   fitclub,
   elecomm,
+  tikdok,
+  notes,
   threejs,
 } from "../assets";
 
@@ -189,15 +191,15 @@ const projects = [
   {
     name: "Image social media",
     description:
-      "Web-based platform that allows users to post and search images, like/save, and comment on them.",
+      "Web-based platform that allows users to post and search images, like/save, and comment on them with a working Sanity backend.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "sanity",
+        color: "orange-text-gradient",
       },
       {
         name: "tailwind",
@@ -210,19 +212,14 @@ const projects = [
   },
   {
     name: "The Fit Club",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    description: "A single-page promotion website for a fitness club.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
@@ -231,24 +228,73 @@ const projects = [
   },
   {
     name: "Elecomm sound",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    description: "A ecommerce website with Stripe payments.",
     tags: [
       {
         name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "sanity",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "stripe",
         color: "pink-text-gradient",
       },
     ],
     image: elecomm,
     source_code_link: "https://github.com/RUSHWAYC/ecommerce-project-react",
+  },
+  {
+    name: "TikDok",
+    description:
+      "A video sharing platform made using TypeScript with a working Sanity backend, Google login, and playable videos.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanity",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tikdok,
+    source_code_link: "https://github.com/RUSHWAYC/tikdok-video_social_media",
+  },
+  {
+    name: "Notes app",
+    description:
+      "A simple note TypeScript taking app with Cypress automated testing.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "cypress",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: notes,
+    source_code_link: "https://github.com/RUSHWAYC/note-taking-app",
   },
 ];
 
