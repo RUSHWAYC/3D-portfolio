@@ -6,6 +6,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import eye from "./eye.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -43,6 +44,7 @@ export {
   mobile,
   web,
   github,
+  eye,
   menu,
   close,
   bootstrap,

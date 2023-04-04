@@ -209,6 +209,7 @@ const projects = [
     image: smedio,
     source_code_link:
       "https://github.com/RUSHWAYC/smedio_img_sharing_soc_media",
+    website_link: "https://smedio.vercel.app",
   },
   {
     name: "The Fit Club",
@@ -225,6 +226,7 @@ const projects = [
     ],
     image: fitclub,
     source_code_link: "https://github.com/RUSHWAYC/fitness-site-ReactYarn",
+    website_link: "https://thefitclub.vercel.app",
   },
   {
     name: "Elecomm sound",
@@ -245,6 +247,7 @@ const projects = [
     ],
     image: elecomm,
     source_code_link: "https://github.com/RUSHWAYC/ecommerce-project-react",
+    website_link: "https://elecommsound.vercel.app",
   },
   {
     name: "TikDok",
@@ -270,6 +273,7 @@ const projects = [
     ],
     image: tikdok,
     source_code_link: "https://github.com/RUSHWAYC/tikdok-video_social_media",
+    website_link: "https://tikdok.vercel.app",
   },
   {
     name: "Notes app",
@@ -295,6 +299,7 @@ const projects = [
     ],
     image: notes,
     source_code_link: "https://github.com/RUSHWAYC/note-taking-app",
+    website_link: "https://taking-notes.vercel.app",
   },
 ];
 
